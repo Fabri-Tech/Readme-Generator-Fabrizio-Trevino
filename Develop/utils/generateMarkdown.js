@@ -18,7 +18,7 @@ function LicenseSection(license) {
   if (!license || license === "None") {
     return "";
   }
-  return `## License
+  return `## Licensels
 This MD file will  use the ${license} license. `;
 }
 
